@@ -6,7 +6,7 @@ I enjoy shipping clean, maintainable solutions with solid UX, performance awaren
 - 📍 Argentina (remote)
 - 💻 GitHub: https://github.com/ricardobing
 - 🔗 LinkedIn: https://www.linkedin.com/in/ricardo-brossard
-- ✉️ Contact: ricardobrossard@gmail.com
+- ✉️ Contact: ricardobingeniero@gmail.com
 
 ---
 
@@ -120,7 +120,7 @@ Me gusta construir soluciones simples, mantenibles y con buen criterio de UX, pe
 - 📍 Argentina (remoto)
 - 💻 GitHub: https://github.com/ricardobing
 - 🔗 LinkedIn: https://www.linkedin.com/in/ricardo-brossard
-- ✉️ Contacto: ricardobrossard@gmail.com
+- ✉️ Contacto: ricardobingeniero@gmail.com
 
 ---
 
