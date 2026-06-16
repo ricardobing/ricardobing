@@ -31,7 +31,7 @@ I work well in environments that value **autonomy, technical depth, and delivery
 
 ### 🏠 Real Estate CRM — Automated Lead Pipeline · React · Next.js · Python
 
-**Lexinton Propiedades, Palermo, Buenos Aires · USD 1,800 · 4+ months in active production**  
+**Lexinton Propiedades, Palermo, Buenos Aires · 4+ months in active production**  
 🔗 [tokkoleads.vercel.app](https://tokkoleads.vercel.app)
 
 A real estate agency was receiving 200+ weekly leads across three portals (ZonaProp, Argenprop, Meta Ads) into a shared Gmail inbox with no system. Agents responded from memory, leads went cold, and management had zero pipeline visibility. Average response time: **54 hours**.
@@ -59,7 +59,7 @@ Python work: email parsers, Property Matcher design and validation, re-matching 
 
 ### 🌐 Real Estate Website — Next.js 14 · Tokko Broker API · ISR · Supabase
 
-**Lexinton Propiedades, Palermo, Buenos Aires · USD 1,300 · Live in production**  
+**Lexinton Propiedades, Palermo, Buenos Aires · Live in production**  
 🔗 [lexinton.com.ar](https://lexinton.com.ar)
 
 The same agency had an outdated WordPress site with no real-time integration to their CRM. Properties were updated manually. Leads generated from the site never reached their system. They depended entirely on ZonaProp and Argenprop for inbound inquiries.
