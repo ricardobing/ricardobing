@@ -57,6 +57,30 @@ Python work: email parsers, Property Matcher design and validation, re-matching 
 
 ---
 
+### 🌐 Real Estate Website — Next.js 14 · Tokko Broker API · ISR · Supabase
+
+**Lexinton Propiedades, Palermo, Buenos Aires · USD 1,300 · Live in production**  
+🔗 [lexinton.com.ar](https://lexinton.com.ar)
+
+The same agency had an outdated WordPress site with no real-time integration to their CRM. Properties were updated manually. Leads generated from the site never reached their system. They depended entirely on ZonaProp and Argenprop for inbound inquiries.
+
+**What I built:**
+
+Full website from scratch. Next.js Route Handlers act as a secure proxy to Tokko Broker (the leading real estate CRM in Argentina) — the API key never reaches the client. ISR with staggered revalidation (300s for properties / 600s for featured & developments) keeps 175+ listings fresh without hammering the API on every visit. Property gallery with lightbox and pinch-to-zoom. Smart neighborhood grouper (Palermo → Soho / Hollywood / Chico / Botánico). Mobile contact modal as bottom-sheet. Framer Motion with dynamic imports to protect TBT. Dual lead system: every form submission goes simultaneously to Tokko via webcontact API and to a proprietary panel in Supabase. 177 property routes pre-generated at build time.
+
+Technical problems solved along the way: Tokko has no public documentation — I mapped the real endpoint structure and required parameters (including `lang=es`) through Python debugging scripts. Property descriptions arrived mixed with a Lexinton footer in the same field — solved with a marker-based cleaning algorithm. Multiple image hostnames from Tokko required dynamic `remotePatterns` configuration in `next.config.mjs`.
+
+> **175+ properties in real time · SEO 100/100 · Accessibility 91/100 · CLS 0 · 177 ISR pre-generated routes · direct lead channel independent of third-party portals**
+
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+---
+
 ### 🤖 Real Estate Lead Automation — Make · GPT-4.1 · WhatsApp · Google Apps Script
 
 **Inmobiliaria, Buenos Aires · Active in production**
