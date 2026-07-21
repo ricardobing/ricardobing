@@ -2,10 +2,10 @@
 
 # Ricardo Brossard
 
-### AI Integration · Full Stack Developer · Python Backend · Data Engineering
+### Backend Engineer (Node.js · Python) · AI Integration · Full Stack Developer
 
-*I build systems that work without supervision — production pipelines, LLM integrations,*  
-*and operational tools with real clients and measurable outcomes.*
+*I build systems that work without supervision — backend services, production pipelines,*  
+*LLM integrations, and operational tools with real clients and measurable outcomes.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardo-brossard)
 [![Email](https://img.shields.io/badge/ricardobingeniero@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ricardobingeniero@gmail.com)
@@ -19,7 +19,7 @@
 
 ## What I bring to a team
 
-I design and ship **end-to-end systems** — from database schema to API to production UI — with a strong emphasis on AI integration and workflow automation. My background is in Systems Engineering, and every project I've delivered has had a real client, a real problem, and a real outcome attached to it.
+I design and ship **end-to-end systems** — from database schema to API to production UI, across **Python and Node.js/TypeScript backends** — with a strong emphasis on AI integration and workflow automation. My background is in Systems Engineering, and every project I've delivered has had a real client, a real problem, and a real outcome attached to it.
 
 I work well in environments that value **autonomy, technical depth, and delivery over process.** I don't need daily standups to stay aligned, and I don't ship code without tests.
 
@@ -177,6 +177,15 @@ A data pipeline with strict layer separation (ETL / KPI engine / Pareto A-B-C se
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-536AF5?style=flat-square&logoColor=white)
 
 Context engineering · Prompt engineering · Structured output / function calling · Agentic workflows · AI observability
+
+**Node.js Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+REST APIs · Event-driven architecture · CQRS · Dependency injection · Rate limiting · Circuit breakers
 
 **Python Backend**
 
