@@ -9,10 +9,10 @@
 *I build full-stack systems with AI and automation that ship to production*
 *and get used every day — real clients, real problems, measurable outcomes.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardo-brossard)
-[![Email](https://img.shields.io/badge/ricardobingeniero@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ricardobingeniero@gmail.com)
-[![Zizu Demo](https://img.shields.io/badge/Zizu_Delivery_(live_demo)-000000?style=flat-square&logo=vercel&logoColor=white)](https://delivery-ten-mu.vercel.app)
-[![KPI Dashboard](https://img.shields.io/badge/KPI_Dashboard_(live)-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://excel-to-kpi-dashboard.streamlit.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardo-brossard)
+[![Email](https://img.shields.io/badge/ricardobingeniero@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ricardobingeniero@gmail.com)
+[![Zizu Official](https://img.shields.io/badge/🛵_ZIZU_DELIVERY-zizu.com.ar-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://zizu.com.ar)
+[![KPI Dashboard](https://img.shields.io/badge/KPI_Dashboard-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://excel-to-kpi-dashboard.streamlit.app/)
 
 📍 Argentina · UTC-3 · Available for remote roles worldwide
 
@@ -34,19 +34,23 @@ I work well in environments that value **autonomy, technical depth, and delivery
 
 ### 🛵 Zizu — Multi-Store Delivery Platform · React · TypeScript · Supabase · Mercado Pago
 
-**Real client, billed by milestones · Live on Vercel**
-🔗 [delivery-ten-mu.vercel.app](https://delivery-ten-mu.vercel.app)
+**Real client, billed by milestones · Official Web & Production System**  
+🌐 **Official Platform:** [zizu.com.ar](https://zizu.com.ar)
+
+| Status | Architecture | Quality Assurance | Concurrency |
+| :---: | :---: | :---: | :---: |
+| 🚀 **Live in Production** | 🛡️ **Multi-tenant RLS** | 🧪 **138 E2E Tests** | ⚡ **Atomic Lock Tested** |
 
 A delivery platform for small cities, built solo from zero to production. One SPA, four role areas — customer, store, courier, admin — coordinated in real time over a single Postgres database. The hard part was never the UI: it was making payments, accounting and courier assignment impossible to corrupt.
 
 **What I built:**
 
-- **Multi-tenant isolation via Row Level Security** on every table — each store and courier sees exactly their own data; the same pattern as a multi-tenant SaaS.
-- **Order state machine enforced in the database** (`security definer` functions): each role can only execute its own transitions. The UI disables buttons, but the rule holds even against direct API calls.
-- **Real-time everything** (Supabase Realtime): new orders ring on the store's screen, the customer's timeline updates live, out-of-stock items vanish from open menus.
-- **Atomic courier assignment** — two couriers tapping "Take" simultaneously get exactly one winner, verified with a real concurrency test (two competing sessions).
-- **Mercado Pago end-to-end**: server-to-server payment confirmation, signed (HMAC) idempotent webhook, chargebacks and refunds covered by tests, and an **append-only accounting ledger** protected by triggers — changing today's commission can never rewrite yesterday's books.
-- **Installable PWA** with custom install UX for Android and iOS.
+- 🔐 **Multi-tenant isolation via Row Level Security** on every table — each store and courier sees exactly their own data; the same pattern as a multi-tenant SaaS.
+- ⚙️ **Order state machine enforced in the database** (`security definer` functions): each role can only execute its own transitions. The UI disables buttons, but the rule holds even against direct API calls.
+- ⚡ **Real-time everything** (Supabase Realtime): new orders ring on the store's screen, the customer's timeline updates live, out-of-stock items vanish from open menus.
+- 🎯 **Atomic courier assignment** — two couriers tapping "Take" simultaneously get exactly one winner, verified with a real concurrency test (two competing sessions).
+- 💳 **Mercado Pago end-to-end**: server-to-server payment confirmation, signed (HMAC) idempotent webhook, chargebacks and refunds covered by tests, and an **append-only accounting ledger** protected by triggers — changing today's commission can never rewrite yesterday's books.
+- 📱 **Installable PWA** with custom install UX for Android and iOS.
 
 <img src="assets/zizu-realtime.png" alt="Zizu — store screen receiving an order while the customer timeline updates live" width="100%">
 
@@ -73,7 +77,7 @@ A delivery platform for small cities, built solo from zero to production. One SP
 
 ### 🏠 Real Estate CRM with WhatsApp built in — Next.js 14 · Supabase · WhatsApp Cloud API
 
-**Lexinton Propiedades, Buenos Aires · In production since April 2026 · 8 daily active users**
+**Lexinton Propiedades, Buenos Aires · In production since April 2026 · 8 daily active users**  
 🔗 [panel.lexinton.com.ar](https://panel.lexinton.com.ar)
 
 The agency ran on spreadsheets — one per property. Leads were logged by hand (or not at all), follow-up depended on each agent's memory, and the owner had zero visibility. Today the entire agency operates on one system, and the business's WhatsApp lives inside it.
@@ -114,7 +118,7 @@ It replaced a stack of Google Sheets + Apps Script + Make + OpenAI (with monthly
 
 ### 🌐 Real Estate Website — Next.js 14 · Tokko Broker API · ISR · Supabase
 
-**Lexinton Propiedades, Buenos Aires · Live in production**
+**Lexinton Propiedades, Buenos Aires · Live in production**  
 🔗 [lexinton.com.ar](https://lexinton.com.ar)
 
 Full website from scratch, replacing an outdated WordPress with no CRM integration. Next.js Route Handlers act as a secure proxy to Tokko Broker — the API key never reaches the client. ISR with staggered revalidation keeps 175+ listings fresh without hammering the API. Dual lead system: every form submission goes simultaneously to Tokko and to the CRM above. Tokko has no public documentation — I mapped the real endpoint structure through Python debugging scripts.
@@ -130,7 +134,7 @@ Full website from scratch, replacing an outdated WordPress with no CRM integrati
 
 ### 📊 KPI Commercial Dashboard — Open Source · Python · Streamlit
 
-**Public portfolio project**
+**Public portfolio project**  
 🔗 [Live demo](https://excel-to-kpi-dashboard.streamlit.app/) · [Source code](https://github.com/ricardobing/excel-to-kpi-dashboard)
 
 A data pipeline with strict layer separation (ETL / KPI engine / Pareto A-B-C segmentation / automated alert engine). 51 pytest tests validate the complete business logic independently from the UI. 30,000+ records processed in under 3 seconds. Full source code visible on GitHub — this one you can actually read.
@@ -206,26 +210,26 @@ E2E tests in real browsers · Concurrency tests · RLS security tests · Test en
 
 ## How I work
 
-**I think in systems, not features.**
+**I think in systems, not features.**  
 Before writing a single line I model the data, define the contracts between layers, and map the failure modes. The architecture exists before the first commit.
 
-**I measure what I ship.**
+**I measure what I ship.**  
 Every project I've delivered has metrics: leads captured, hours saved, time reduced. I don't consider something done until I can tell the client whether it's working.
 
-**I own the full stack.**
+**I own the full stack.**  
 I take a problem from database schema to API to production UI. No handoffs between layers — one person who understands the whole system.
 
-**I integrate AI where it solves a real problem.**
+**I integrate AI where it solves a real problem.**  
 Not as a feature, but as a component — with context engineering, structured output validation, fallback logic, and observability. If the LLM fails, the system degrades gracefully instead of silently hallucinating. And I know when *not* to use it: I once replaced a monthly OpenAI classification bill with deterministic rules that did the same job for free.
 
-**I work async, document as I go, and don't need supervision to stay on track.**
+**I work async, document as I go, and don't need supervision to stay on track.**  
 I've shipped production systems as a solo contributor. English: professional written communication — docs, email, Slack, PRs.
 
 ---
 
 ## Education
 
-**B.Eng. in Information Systems Engineering**
+**B.Eng. in Information Systems Engineering**  
 Universidad Tecnológica Nacional (UTN) — Facultad Regional Concepción del Uruguay, Argentina
 
 ---
