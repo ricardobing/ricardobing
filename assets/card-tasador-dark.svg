@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="Tasador RAG">
+  <title>Tasador RAG</title>
+  <defs>
+    <radialGradient id="g" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.16"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="329" rx="18" fill="#0f1524" stroke="#243049"/>
+  <rect x="0.5" y="0.5" width="599" height="329" rx="18" fill="url(#g)"/>
+  <rect x="32" y="0.5" width="64" height="4" rx="2" fill="#a78bfa"/>
+  <circle cx="38" cy="40" r="4" fill="#a78bfa"/>
+  <text x="50" y="45" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="0.6" fill="#a78bfa">PUBLIC CODE · VERIFIED WITH REAL DATA</text>
+  <text x="568" y="46" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#5d6b82">↗</text>
+  <text x="32" y="90" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#e6edf3">Tasador RAG</text>
+  <text x="32" y="120" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#93a1b5">Property valuations where AI reads the listings and a</text>
+  <text x="32" y="141" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#93a1b5">formula, never the model, sets the price.</text>
+  <line x1="32" y1="162" x2="568" y2="162" stroke="#243049"/>
+  <text x="32" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#a78bfa">11</text>
+  <text x="32" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">LangGraph</text>
+  <text x="32" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">nodes</text>
+  <text x="218" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#a78bfa">113</text>
+  <text x="218" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">queries to pick</text>
+  <text x="218" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">the retriever</text>
+  <text x="404" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#a78bfa">547</text>
+  <text x="404" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">tests</text>
+  <text x="404" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">(55 E2E)</text>
+  <rect x="32" y="276" width="69" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="67" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">FastAPI</text>
+  <rect x="109.19999999999999" y="276" width="84" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="151" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">LangGraph</text>
+  <rect x="201.59999999999997" y="276" width="77" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="240" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">pgvector</text>
+  <rect x="286.4" y="276" width="92" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="332" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">Next.js 15</text>
+</svg>

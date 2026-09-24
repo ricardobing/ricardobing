@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Ricardo Brossard — AI Engineer · Full Stack Developer">
+  <title>Ricardo Brossard — AI Engineer · Full Stack Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.22"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d9488"/><stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#0f172a" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="r"><rect width="1280" height="360" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .flow { animation: dash 1.6s linear infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 58px 318px; }
+    @keyframes dash { to { stroke-dashoffset: -26; } }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+    @media (prefers-reduced-motion: reduce) { .flow, .pulse { animation: none; } }
+  </style>
+  <g clip-path="url(#r)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+    <rect width="1280" height="360" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="20" fill="none" stroke="#d7deea"/>
+
+  <text x="52" y="112" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#0f172a" letter-spacing="-1">Ricardo Brossard</text>
+  <text x="54" y="160" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="url(#title)">AI Engineer · Full Stack Developer</text>
+  <text x="54" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#475569">I build AI products that run in production. LLMs handle language</text>
+  <text x="54" y="232" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#475569">and judgment; deterministic code handles the numbers.</text>
+  <text x="54" y="272" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#94a3b8">Python · FastAPI · LLMs · React · Next.js · TypeScript · Node.js · PostgreSQL</text>
+  <circle class="pulse" cx="58" cy="318" r="5" fill="#047857"/>
+  <text x="72" y="323" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#0f172a">Open to remote roles · Argentina, UTC-3</text>
+
+  <line x1="980" y1="97" x2="1030" y2="97" stroke="#2563eb" stroke-width="2" class="flow" stroke-dasharray="6 7"/><circle cx="1030" cy="97" r="3.5" fill="#2563eb"/><line x1="1135" y1="130" x2="1135" y2="204" stroke="#7c3aed" stroke-width="2" class="flow" stroke-dasharray="6 7"/><circle cx="1135" cy="204" r="3.5" fill="#7c3aed"/><line x1="1030" y1="237" x2="980" y2="237" stroke="#0d9488" stroke-width="2" class="flow" stroke-dasharray="6 7"/><circle cx="980" cy="237" r="3.5" fill="#0d9488"/>
+  
+    <g>
+      <rect x="770" y="64" width="210" height="66" rx="12" fill="#ffffff" stroke="#2563eb" stroke-opacity="0.75"/>
+      <circle cx="788" cy="88" r="4" fill="#2563eb"/>
+      <text x="802" y="93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Channels</text>
+      <text x="788" y="116" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#475569">WhatsApp · web · email</text>
+    </g>
+    <g>
+      <rect x="1030" y="64" width="210" height="66" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-opacity="0.75"/>
+      <circle cx="1048" cy="88" r="4" fill="#7c3aed"/>
+      <text x="1062" y="93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#0f172a">LLM agent</text>
+      <text x="1048" y="116" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#475569">language · judgment</text>
+    </g>
+    <g>
+      <rect x="1030" y="204" width="210" height="66" rx="12" fill="#ffffff" stroke="#0d9488" stroke-opacity="0.75"/>
+      <circle cx="1048" cy="228" r="4" fill="#0d9488"/>
+      <text x="1062" y="233" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Deterministic core</text>
+      <text x="1048" y="256" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#475569">prices · state · money</text>
+    </g>
+    <g>
+      <rect x="770" y="204" width="210" height="66" rx="12" fill="#ffffff" stroke="#047857" stroke-opacity="0.75"/>
+      <circle cx="788" cy="228" r="4" fill="#047857"/>
+      <text x="802" y="233" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#0f172a">PostgreSQL</text>
+      <text x="788" y="256" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#475569">RLS · audit · queues</text>
+    </g>
+  <g>
+    <rect x="895" y="300" width="190" height="30" rx="15" fill="#f1f5f9" stroke="#d7deea"/>
+    <text x="990" y="320" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#334155">CI · E2E tests · every push</text>
+  </g>
+</svg>

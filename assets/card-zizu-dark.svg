@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="Zizu">
+  <title>Zizu</title>
+  <defs>
+    <radialGradient id="g" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.16"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="329" rx="18" fill="#0f1524" stroke="#243049"/>
+  <rect x="0.5" y="0.5" width="599" height="329" rx="18" fill="url(#g)"/>
+  <rect x="32" y="0.5" width="64" height="4" rx="2" fill="#fbbf24"/>
+  <circle cx="38" cy="40" r="4" fill="#fbbf24"/>
+  <text x="50" y="45" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="0.6" fill="#fbbf24">LIVE · CLIENT · ZIZU.COM.AR</text>
+  <text x="568" y="46" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#5d6b82">↗</text>
+  <text x="32" y="90" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#e6edf3">Zizu</text>
+  <text x="32" y="120" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#93a1b5">Multi-merchant delivery: customer, store, courier and</text>
+  <text x="32" y="141" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#93a1b5">admin watch the same order update live.</text>
+  <line x1="32" y1="162" x2="568" y2="162" stroke="#243049"/>
+  <text x="32" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#fbbf24">4</text>
+  <text x="32" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">roles, one live</text>
+  <text x="32" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">order</text>
+  <text x="218" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#fbbf24">209</text>
+  <text x="218" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">tests in CI</text>
+  <text x="218" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">(152 E2E)</text>
+  <text x="404" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#fbbf24">118</text>
+  <text x="404" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">versioned</text>
+  <text x="404" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">migrations</text>
+  <rect x="32" y="276" width="77" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="70" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">React 18</text>
+  <rect x="116.8" y="276" width="46" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="140" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">Vite</text>
+  <rect x="171.2" y="276" width="77" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="210" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">Supabase</text>
+  <rect x="256.0" y="276" width="107" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="310" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">Mercado Pago</text>
+</svg>

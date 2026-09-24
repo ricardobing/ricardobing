@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Retriever comparison: lexical search won with nDCG@25 0.821 versus 0.747 for the baseline">
+  <title>Retriever comparison — nDCG@25 over 113 queries</title>
+  <rect x="0.5" y="0.5" width="1199" height="559" rx="18" fill="#0f1524" stroke="#243049"/>
+  <text x="48" y="58" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="1" fill="#a78bfa">MEASURED BEFORE DECIDING · 113 QUERIES · PAIRED BOOTSTRAP, 95% CI</text>
+  <text x="48" y="100" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#e6edf3">I built a hybrid RAG. I switched on lexical search, because it won.</text>
+  <text x="360" y="136" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5d6b82">nDCG@25 (axis from 0.70)</text>
+  <text x="48" y="170" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#e6edf3">SQL + recency (baseline)</text>
+  <rect x="360" y="150" width="700" height="28" rx="8" fill="#18213a"/>
+  <rect x="360" y="150" width="219" height="28" rx="8" fill="#2a3656"/>
+  <text x="591" y="170" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#e6edf3">0.747</text>
+  <text x="48" y="222" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#e6edf3">Dense, truncated listing</text>
+  <rect x="360" y="202" width="700" height="28" rx="8" fill="#18213a"/>
+  <rect x="360" y="202" width="490" height="28" rx="8" fill="#2a3656"/>
+  <text x="862" y="222" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#e6edf3">0.805</text>
+  <text x="48" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#e6edf3">Dense, sentence chunks</text>
+  <rect x="360" y="254" width="700" height="28" rx="8" fill="#18213a"/>
+  <rect x="360" y="254" width="280" height="28" rx="8" fill="#2a3656"/>
+  <text x="652" y="274" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#e6edf3">0.760</text>
+  <text x="48" y="326" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#34d399">Lexical (Spanish full-text)</text>
+  <rect x="360" y="306" width="700" height="28" rx="8" fill="#18213a"/>
+  <rect x="360" y="306" width="565" height="28" rx="8" fill="#34d399"/>
+  <text x="937" y="326" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#34d399">0.821</text><rect x="995" y="308" width="118" height="24" rx="12" fill="#34d399" fill-opacity="0.14"/><text x="1054" y="325" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#34d399">SWITCHED ON</text>
+  <text x="48" y="378" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#e6edf3">Hybrid dense + lexical (RRF)</text>
+  <rect x="360" y="358" width="700" height="28" rx="8" fill="#18213a"/>
+  <rect x="360" y="358" width="378" height="28" rx="8" fill="#2a3656"/>
+  <text x="750" y="378" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#e6edf3">0.781</text>
+  <text x="48" y="430" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#e6edf3">Hybrid + cross-encoder reranker</text>
+  <rect x="360" y="410" width="700" height="28" rx="8" fill="#18213a"/>
+  <rect x="360" y="410" width="420" height="28" rx="8" fill="#2a3656"/>
+  <text x="792" y="430" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#e6edf3">0.790</text>
+  <rect x="48" y="470" width="356" height="58" rx="10" fill="#18213a" stroke="#243049"/>
+  <text x="64" y="494" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#34d399">Lexical: 21.7% of candidates discarded in curation</text>
+  <text x="64" y="514" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#93a1b5">vs 29.2% for the baseline</text>
+  <rect x="420" y="470" width="356" height="58" rx="10" fill="#18213a" stroke="#243049"/>
+  <text x="436" y="494" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#93a1b5">Reranker: +0.009 nDCG (noise)</text>
+  <text x="436" y="514" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#93a1b5">for 30 extra seconds per report</text>
+  <rect x="792" y="470" width="356" height="58" rx="10" fill="#18213a" stroke="#243049"/>
+  <text x="808" y="494" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#93a1b5">Dense retrieval and reranker:</text>
+  <text x="808" y="514" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#93a1b5">built, measured, switched off</text>
+</svg>

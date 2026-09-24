@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="Lexinton CRM">
+  <title>Lexinton CRM</title>
+  <defs>
+    <radialGradient id="g" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.16"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="329" rx="18" fill="#0f1524" stroke="#243049"/>
+  <rect x="0.5" y="0.5" width="599" height="329" rx="18" fill="url(#g)"/>
+  <rect x="32" y="0.5" width="64" height="4" rx="2" fill="#2dd4bf"/>
+  <circle cx="38" cy="40" r="4" fill="#2dd4bf"/>
+  <text x="50" y="45" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="0.6" fill="#2dd4bf">LIVE · CLIENT · SINCE MAY 2026</text>
+  <text x="568" y="46" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#5d6b82">↗</text>
+  <text x="32" y="90" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#e6edf3">Lexinton CRM</text>
+  <text x="32" y="120" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#93a1b5">Every inquiry a real estate agency receives, in one</text>
+  <text x="32" y="141" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#93a1b5">panel: auto-linked to its property, WhatsApp built in.</text>
+  <line x1="32" y1="162" x2="568" y2="162" stroke="#243049"/>
+  <text x="32" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#2dd4bf">3,500+</text>
+  <text x="32" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">inquiries, no</text>
+  <text x="32" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">manual entry</text>
+  <text x="218" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#2dd4bf">98%</text>
+  <text x="218" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">auto-linked to</text>
+  <text x="218" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">their property</text>
+  <text x="404" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#2dd4bf">10</text>
+  <text x="404" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">users on the</text>
+  <text x="404" y="248" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#93a1b5">agency's team</text>
+  <rect x="32" y="276" width="92" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="78" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">Next.js 14</text>
+  <rect x="132.0" y="276" width="92" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="178" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">TypeScript</text>
+  <rect x="232.0" y="276" width="77" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="270" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">Supabase</text>
+  <rect x="316.8" y="276" width="107" height="26" rx="13" fill="#18213a" stroke="#243049"/>
+  <text x="370" y="293" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#c3cedd">WhatsApp API</text>
+</svg>
