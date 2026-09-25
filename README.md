@@ -5,8 +5,9 @@
   <img src="assets/header-light.svg" alt="Ricardo Brossard — AI Engineer · Full Stack Developer. I build AI products that run in production: LLMs handle language and judgment; deterministic code handles the numbers." width="100%">
 </picture>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-ricardobrossard.com-1F2A44?style=flat-square&logo=googlechrome&logoColor=white)](https://ricardobrossard.com/en/projects/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ricardo--brossard-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardo-brossard)
-[![Email](https://img.shields.io/badge/Email-ricardobingeniero%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ricardobingeniero@gmail.com)
+[![Email](https://img.shields.io/badge/Email-info%40ricardobrossard.com-EA4335?style=flat-square&logo=maildotru&logoColor=white)](mailto:info@ricardobrossard.com)
 ![Location](https://img.shields.io/badge/Argentina_·_UTC--3-remote-2dd4bf?style=flat-square)
 
 </div>
@@ -39,7 +40,7 @@ I design and build complete systems, from the database schema to the production 
 <a id="lexinton-crm"></a>
 ## Lexinton CRM · every inquiry in one panel
 
-**Real estate agency in Buenos Aires · Live since May 2026 · 10 users** · [panel.lexinton.com.ar](https://panel.lexinton.com.ar)
+**Real estate agency in Buenos Aires · Live since May 2026 · 10 users** · [panel.lexinton.com.ar](https://panel.lexinton.com.ar) · [Case study](https://ricardobrossard.com/en/projects/#crm-lexinton)
 
 <img src="assets/crm-hero.webp" alt="Lexinton CRM: owner dashboard and the WhatsApp inbox inside the panel (demo data)" width="100%">
 
@@ -62,7 +63,7 @@ Buyer and tenant inquiries arrived every day through listing portals, Facebook a
 <a id="zizu"></a>
 ## Zizu · multi-merchant delivery with online payments
 
-**Client in Argentina · Live in production** · [zizu.com.ar](https://zizu.com.ar)
+**Client in Argentina · Live in production** · [zizu.com.ar](https://zizu.com.ar) · [Case study](https://ricardobrossard.com/en/projects/#zizu)
 
 <img src="assets/zizu-hero.webp" alt="Zizu: customer catalog, and the same order updating live on the store's screen and the customer's timeline" width="100%">
 
@@ -82,7 +83,7 @@ In small cities, shops take orders by phone and WhatsApp, with no platform to co
 <a id="tomanota"></a>
 ## TomaNota · an AI assistant that takes orders on WhatsApp
 
-**Own product · Live** · [tomanota.lat](https://tomanota.lat) · [Try the demo, no sign-up](https://app.tomanota.lat/probar)
+**Own product · Live** · [tomanota.lat](https://tomanota.lat) · [Try the demo, no sign-up](https://app.tomanota.lat/probar) · [Case study](https://ricardobrossard.com/en/projects/#tomanota)
 
 <img src="assets/tomanota-hero.webp" alt="TomaNota: product website and a full WhatsApp order confirmed on the phone" width="100%">
 
@@ -104,7 +105,7 @@ The neighborhood pizzeria takes orders on WhatsApp while the owner works the cou
 <a id="tasador-rag"></a>
 ## Tasador RAG · property valuations where the model never sets the price
 
-**Real estate agency in Buenos Aires · Full application verified end to end with real market data** · [Source code](https://github.com/ricardobing/tasador-rag)
+**Real estate agency in Buenos Aires · Full application verified end to end with real market data** · [Source code](https://github.com/ricardobing/tasador-rag) · [Case study](https://ricardobrossard.com/en/projects/#tasador)
 
 To price a listing, an agent compares it by hand against similar listings: 30 to 60 minutes per valuation, with no written reasoning. Tasador produces the report in about a minute, with the comparable listings that justify the price. AI finds and reads the listings and decides which ones are comparable. **The price comes from an explicit formula, never from the model**, and every fact the AI extracts carries a quote that is checked against the original text, without AI.
 
@@ -161,6 +162,6 @@ To price a listing, an agent compares it by hand against similar listings: 30 to
 
 **Systems Engineering, Universidad Tecnológica Nacional (UTN)** · English: professional written communication (docs, email, Slack, PRs)
 
-[LinkedIn](https://linkedin.com/in/ricardo-brossard) · [ricardobingeniero@gmail.com](mailto:ricardobingeniero@gmail.com)
+[Portfolio](https://ricardobrossard.com/en/projects/) · [LinkedIn](https://linkedin.com/in/ricardo-brossard) · [info@ricardobrossard.com](mailto:info@ricardobrossard.com)
 
 </div>
