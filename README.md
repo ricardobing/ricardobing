@@ -44,7 +44,7 @@ I design and build complete systems, from the database schema to the production 
 
 **Real estate agency in Buenos Aires · Live since May 2026 · 10 users** · [panel.lexinton.com.ar](https://panel.lexinton.com.ar) · [Case study](https://ricardobrossard.com/en/projects/crm-lexinton/)
 
-<img src="assets/crm-hero.webp" alt="CRM Lexinton: owner dashboard and the WhatsApp inbox inside the system (demo data)" width="100%">
+<img src="assets/crm-case.gif" alt="CRM Lexinton in motion: inquiries arrive on their own from the listing portals, each one with its property and its agent; a viewing is booked in the agent's Google Calendar; when the client replies on WhatsApp, the automated messages go quiet; and the dashboard shows how fast the team replies (demo data)" width="100%">
 
 Buyer and tenant inquiries arrived every day through listing portals, Facebook ads and the website, and ended up in a shared inbox. Each one depended on someone copying it into a spreadsheet by hand. Now every inquiry lands in a single system with no manual entry: already linked to the property it asks about, assigned to the right agent, and followed up from there, including on the agency's WhatsApp.
 
@@ -67,7 +67,7 @@ Buyer and tenant inquiries arrived every day through listing portals, Facebook a
 
 **Client in Argentina · Live in production** · [zizu.com.ar](https://zizu.com.ar) · [Case study](https://ricardobrossard.com/en/projects/zizu/)
 
-<img src="assets/zizu-hero.webp" alt="Zizu: customer catalog, and the same order updating live on the store's screen and the customer's timeline" width="100%">
+<img src="assets/zizu-case.gif" alt="Zizu in motion: one order goes through the real screens; the customer orders, the shop accepts it, the courier takes it and the customer follows it live" width="100%">
 
 In small cities, shops take orders by phone and WhatsApp, with no platform to coordinate customer, shop and courier. Zizu is that platform: the customer orders, the shop prepares, the courier delivers and the admin oversees, each on their own screen, all watching the same order update live. I built it from scratch, end to end, in 4 stages that were delivered, audited and billed.
 
@@ -87,7 +87,7 @@ In small cities, shops take orders by phone and WhatsApp, with no platform to co
 
 **Own product · Live** · [tomanota.lat](https://tomanota.lat) · [Try the demo, no sign-up](https://app.tomanota.lat/probar) · [Case study](https://ricardobrossard.com/en/projects/tomanota/)
 
-<img src="assets/tomanota-hero.webp" alt="TomaNota: product website and a full WhatsApp order confirmed on the phone" width="100%">
+<img src="assets/tomanota-case.gif" alt="TomaNota in motion: orders from WhatsApp, the QR menu and the counter reach the same board, each with its source label, at the same price" width="100%">
 
 The neighborhood pizzeria takes orders on WhatsApp while the owner works the counter. At peak hours messages go unanswered and orders get jotted on paper, with mistakes. TomaNota answers that WhatsApp: it chats with the customer like a person would, builds the order with the menu's real prices, confirms it and drops it on a board for the shop to prepare. Orders from WhatsApp, the online QR menu and the counter all land on the same board.
 
@@ -143,11 +143,13 @@ To price a listing, an agent compares it by hand against similar listings: an ho
 
 Technical decisions from these projects, written for business owners and engineers alike:
 
+<!-- BLOG-POST-LIST:START -->
 - [Six channels, zero manual entry: how a real estate agency's inquiries come in on their own](https://ricardobrossard.com/en/blog/six-channels-zero-manual-entry/) · CRM Lexinton
 - [An AI that chooses instead of writing: from 3 seconds to half a second with Jev](https://ricardobrossard.com/en/blog/an-ai-that-chooses-instead-of-writing/)
 - [AI agents that don't make up numbers: where the model ends and the code begins](https://ricardobrossard.com/en/blog/ai-agents-that-dont-make-up-numbers/) · TomaNota and Tasador
 - [The official WhatsApp API inside your system: a shared inbox and follow-ups that stop on their own](https://ricardobrossard.com/en/blog/official-whatsapp-inside-your-system/) · CRM Lexinton
 - [Before you switch on the AI, measure it](https://ricardobrossard.com/en/blog/measure-ai-before-you-switch-it-on/) · Tasador
+<!-- BLOG-POST-LIST:END -->
 
 [All articles](https://ricardobrossard.com/en/blog/) · [RSS](https://ricardobrossard.com/en/rss.xml)
 

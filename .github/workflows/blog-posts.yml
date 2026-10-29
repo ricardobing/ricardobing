@@ -1,0 +1,25 @@
+# Keeps the "Writing" list in README.md up to date with the latest English articles
+# from https://ricardobrossard.com/en/rss.xml (between the BLOG-POST-LIST markers).
+name: Latest articles
+
+on:
+  schedule:
+    - cron: '0 11 * * *' # every day at 8:00 Argentina time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # 1.9.7
+        with:
+          feed_list: 'https://ricardobrossard.com/en/rss.xml'
+          max_post_count: 6
+          template: '- [$title]($url)$newline'
+          commit_message: 'Update the latest articles from the blog'
+          committer_username: 'Ricardo Brossard'
+          committer_email: 'ricardobingeniero@gmail.com'
