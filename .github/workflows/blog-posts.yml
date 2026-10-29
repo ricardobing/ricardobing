@@ -19,7 +19,7 @@ jobs:
         with:
           feed_list: 'https://ricardobrossard.com/en/rss.xml'
           max_post_count: 6
-          template: '- [$title]($url)$newline'
+          template: '$newline- [$title]($url)'
           commit_message: 'Update the latest articles from the blog'
           committer_username: 'Ricardo Brossard'
           committer_email: 'ricardobingeniero@gmail.com'
