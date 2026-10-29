@@ -143,12 +143,11 @@ To price a listing, an agent compares it by hand against similar listings: an ho
 
 Technical decisions from these projects, written for business owners and engineers alike:
 
-<!-- BLOG-POST-LIST:START -->
-- [Six channels, zero manual entry: how a real estate agency's inquiries come in on their own](https://ricardobrossard.com/en/blog/six-channels-zero-manual-entry/) · CRM Lexinton
+<!-- BLOG-POST-LIST:START -->- [Six channels, zero manual entry: how a real estate agency&#39;s inquiries come in on their own](https://ricardobrossard.com/en/blog/six-channels-zero-manual-entry/)
 - [An AI that chooses instead of writing: from 3 seconds to half a second with Jev](https://ricardobrossard.com/en/blog/an-ai-that-chooses-instead-of-writing/)
-- [AI agents that don't make up numbers: where the model ends and the code begins](https://ricardobrossard.com/en/blog/ai-agents-that-dont-make-up-numbers/) · TomaNota and Tasador
-- [The official WhatsApp API inside your system: a shared inbox and follow-ups that stop on their own](https://ricardobrossard.com/en/blog/official-whatsapp-inside-your-system/) · CRM Lexinton
-- [Before you switch on the AI, measure it](https://ricardobrossard.com/en/blog/measure-ai-before-you-switch-it-on/) · Tasador
+- [AI agents that don&#39;t make up numbers: where the model ends and the code begins](https://ricardobrossard.com/en/blog/ai-agents-that-dont-make-up-numbers/)
+- [The official WhatsApp API inside your system: a shared inbox and follow-ups that stop on their own](https://ricardobrossard.com/en/blog/official-whatsapp-inside-your-system/)
+- [Before you switch on the AI, measure it](https://ricardobrossard.com/en/blog/measure-ai-before-you-switch-it-on/)
 <!-- BLOG-POST-LIST:END -->
 
 [All articles](https://ricardobrossard.com/en/blog/) · [RSS](https://ricardobrossard.com/en/rss.xml)
