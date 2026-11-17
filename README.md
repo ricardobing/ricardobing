@@ -144,6 +144,7 @@ To price a listing, an agent compares it by hand against similar listings: an ho
 Technical decisions from these projects, written for business owners and engineers alike:
 
 <!-- BLOG-POST-LIST:START -->
+- [The top seller isn&#39;t pizza: the first two weeks of a delivery app](https://ricardobrossard.com/en/blog/delivery-app-first-two-weeks/)
 - [Six channels, zero manual entry: how a real estate agency&#39;s inquiries come in on their own](https://ricardobrossard.com/en/blog/six-channels-zero-manual-entry/)
 - [An AI that chooses instead of writing: from 3 seconds to half a second with Jev](https://ricardobrossard.com/en/blog/an-ai-that-chooses-instead-of-writing/)
 - [AI agents that don&#39;t make up numbers: where the model ends and the code begins](https://ricardobrossard.com/en/blog/ai-agents-that-dont-make-up-numbers/)
